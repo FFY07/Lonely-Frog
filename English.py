@@ -22,7 +22,7 @@ if frog18 and agree == True:
 
     st.subheader("We provide the best platform and service to all frogs!! ")
 
-    tab1, tab2, tab3 = st.tabs(["Home", "Service", "Customer Review"])
+    tab1, tab2, tab3, tab4 = st.tabs(["Home", "Service", "Customer Review", "Our User"])
 
     with tab1:
         st.header(":rainbow[LONELYFROG]")
@@ -36,15 +36,15 @@ if frog18 and agree == True:
         st.header("We provide alot of service such as")
         st.subheader(":orange[Frogy Dating]", divider = "gray")
         st.write("Meet eligible frogs with our different packages")
-        st.image("diffrentfrog.jpg", width=400)
+        st.image("diffrentfrog.jpg", width=350)
 
         st.subheader(":orange[Fleek Image Consulting]", divider = "gray")
         st.write("Build confidence and self image with various workshops held by Fleek")
-        st.image("Ll4NX7.png", width=400)
+        st.image("Ll4NX7.png", width=350)
 
         st.subheader(":orange[Frog Events]", divider = "gray")
         st.write("Events hosted by :rainbow[LONELYFROG] to spice up speed dating in today’s era")
-        st.image("event.jpg", width=400)
+        st.image("event.jpg", width=350)
 
         st.subheader("Drop us an e-mail at")
         st.subheader("LONELYFROG@yafrog.com")
@@ -52,22 +52,29 @@ if frog18 and agree == True:
         st.subheader("+65 6666 4200")
 
     with tab3:
-        st.image("coolfrog.jpg", width=70)
-        st.subheader('Justin frogber')
+        st.image("coolfrog.jpg", 'Justin frogber',width=100,)
         st.subheader("⭐⭐⭐⭐⭐")
         st.write('"I managed to get my True love,thanks to LONELYFROG"')
 
-        st.image("body.jpg", width=70)
-        st.subheader('Chris BumFrog')
+        st.image("body.jpg",'Chris BumFrog', width=100)
         st.subheader("⭐⭐⭐⭐")
         st.write('"Still better than other Dating App"')
 
-        st.image("halal.png", width=70)
-        st.subheader('Shafiq katak')
+        st.image("halal.png","Shafiq Katak", width=100)
         st.subheader("⭐⭐⭐⭐⭐")
         st.write('"Aplikasi ini sempurna, dia ada katak yang islam "')
 
-        st.image("xukun.jpg", width=70)
-        st.subheader('菜蛙坤')
+        st.image("xukun.jpg", '菜蛙坤',width=100)
         st.subheader("⭐⭐⭐⭐⭐")
         st.write('"这田鸡太美"')
+
+    with tab4:
+        st.subheader("Frog that are using LONELY:green[FROG] Right now!!!")
+        with st.container():
+            df = pd.DataFrame(
+            np.random.randn(400, 2) / [100, 100] + [1.2963,
+            103.8502],
+            columns=['lat', 'lon'])
+            st.map(df)
+
+        
