@@ -28,9 +28,9 @@ if frog18 and agree == True:
         st.header(":rainbow[LONELYFROG]")
         st.subheader("With our team of excellent professionals, be ready to find your Mr/Mrs Right in no time!",divider = "gray")
         st.write(":red[Before] using LONELYFROG")
-        st.image("idiot.jpg", width=200)
+        st.image("before.jpg", width=200)
         st.write(":green[After] using LONELYFROG")
-        st.image("coolfrog.jpg", width=200)
+        st.image("after.gif", width=200)
 
     with tab2:
         st.header("We provide alot of service such as")
