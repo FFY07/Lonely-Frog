@@ -38,8 +38,8 @@ if frog18 and agree == True:
         st.write("Meet eligible frogs with our different packages")
         st.image("diffrentfrog.jpg", width=350)
 
-        st.subheader(":orange[Fleek Image Consulting]", divider = "gray")
-        st.write("Build confidence and self image with various workshops held by Fleek")
+        st.subheader(":orange[Frog Image Consulting]", divider = "gray")
+        st.write("Build confidence and self image with various workshops held by LONELYFROG")
         st.image("Ll4NX7.png", width=350)
 
         st.subheader(":orange[Frog Events]", divider = "gray")
