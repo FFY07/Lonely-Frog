@@ -22,7 +22,7 @@ if frog18 and agree == True:
 
     st.subheader("We provide the best platform and service to all frogs!! ")
 
-    tab1, tab2 = st.tabs(["Home", "Service"])
+    tab1, tab2, tab3 = st.tabs(["Home", "Service", "Customer Review"])
 
     with tab1:
         st.header(":rainbow[LONELYFROG]")
@@ -50,3 +50,24 @@ if frog18 and agree == True:
         st.subheader("LONELYFROG@yafrog.com")
         st.subheader("or Whatsapp")
         st.subheader("+65 6666 4200")
+
+    with tab3:
+        st.image("coolfrog.jpg", width=70)
+        st.subheader('Justin frogber')
+        st.subheader("⭐⭐⭐⭐⭐")
+        st.write('"I managed to get my True love,thanks to LONELYFROG"')
+
+        st.image("body.jpg", width=70)
+        st.subheader('Chris BumFrog')
+        st.subheader("⭐⭐⭐⭐")
+        st.write('"Still better than other Dating App"')
+
+        st.image("halal.png", width=70)
+        st.subheader('Shafiq katak')
+        st.subheader("⭐⭐⭐⭐⭐")
+        st.write('"Aplikasi ini sempurna, dia ada katak yang islam "')
+
+        st.image("xukun.jpg", width=70)
+        st.subheader('菜蛙坤')
+        st.subheader("⭐⭐⭐⭐⭐")
+        st.write('"这田鸡太美"')
